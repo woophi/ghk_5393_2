@@ -45,8 +45,7 @@ const TRADE_VOLUME_OPTIONS = [
 
 const FOND_TRADE_CONDITION_1 = 0.049;
 
-const SDUI_LINK =
-  'alfabank://sdui_screen?screenName=InvestmentLongread&fromCurrent=true&endpoint=v1/invest-main-screen-view/investment-longread/55888%3flocation=AM%26campaignCode=GH5393_var2';
+const SDUI_LINK = 'alfabank://longread?endpoint=v1/adviser/longreads/56702';
 if (LS.getItem(LSKeys.ShowThx, false)) {
   window.location.replace(SDUI_LINK);
 }
